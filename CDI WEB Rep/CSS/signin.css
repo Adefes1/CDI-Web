@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+    background-image: url(../Fotos/moody.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    flex-direction: column;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(13, 13, 13, 0.6); /* Fondo sólido */
+    color: black;
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+    border: solid rgba(255, 255, 255, 0.371);
+    border-width: 5px;
+    padding: 30px 20px;
+    backdrop-filter: blur(20px);
+
+}
+
+
+#Texto {
+    color: white;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+#emailentry,
+#contraseñaentry,
+#nombreentry,
+#contraseñaentry2 {
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+#Boton {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    border: white solid;
+    border-width: 2px 2px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#signin {
+    color: white;
+    margin-top: 20px;
+}
+
+#restablecer {
+    margin-top: 40px;
+    color: white;
+}
+

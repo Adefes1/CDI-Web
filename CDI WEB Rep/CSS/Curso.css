@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+#Titulo {
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(203, 203, 203);
+    text-align: center;
+    text-align: center;
+}
+
+#Curso {
+    background-color: rgb(44, 44, 44);
+    width: 300px;
+    height: 700px;
+    margin-bottom: 50px;
+    flex-direction:column;
+    float: inline-end;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: solid 2px rgb(255, 255, 255);
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+#Curso h1 {
+    margin-left: 70px;
+}
+
+#Curso a {
+    text-decoration: none;
+    color: white;
+}
+
+#Curso ol {
+    color: white;
+}
+
+#Cuerpo {
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#Parrafo {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: justify;
+}
