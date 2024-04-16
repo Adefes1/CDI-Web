@@ -30,7 +30,7 @@
     height: auto;
     padding: 20px;
     box-sizing: border-box;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     z-index: 9999;
 }
 
