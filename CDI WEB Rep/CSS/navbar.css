@@ -31,7 +31,7 @@
 
 #header ul li a {
     text-decoration: none;
-    color: rgb(43, 42, 42);
+    color: rgb(0, 0, 0);
     transition: all 0.5s ease;
 }
 
@@ -39,7 +39,7 @@
     letter-spacing: 3px;
     margin-left: 30px;
     text-transform: uppercase;
-    color: rgb(56, 55, 55);
+    color: rgb(0, 0, 0);
     transition: all 0.3s ease;
 }
 
@@ -55,6 +55,6 @@
 
 #header ul li a:hover {
     text-decoration: none;
-    color: rgb(36, 113, 60);
+    color: rgb(255, 255, 255);
     font-size: 16px;
 }
