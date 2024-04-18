@@ -11,7 +11,7 @@
 /* Editando el encabezado*/
 
 #encabezado{
-background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Fotos/fondo.jpg);
+background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Fotos/fondo.jpg);
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -75,19 +75,19 @@ margin-bottom: 45px;
 }
 
 #imgprogramacion{
-background-image: url(/Fotos/cursoboton.jpg);
+background-image: url(../Fotos/cursoboton.jpg);
 }
 
 #imgjardin{
-background-image: url(/Fotos/jardinft.jpg);
+background-image: url(../Fotos/jardinft.jpg);
 }
 
 #imgpro1{
-background-image: url(/Fotos/apartadoproximo1.jpg);
+background-image: url(../Fotos/apartadoproximo1.jpg);
 }
 
 #imgpro2{
-background-image: url(/Fotos/apartadoproximo2.jpg);
+background-image: url(../Fotos/apartadoproximo2.jpg);
 }
 
 p{
