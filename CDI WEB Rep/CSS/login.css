@@ -15,7 +15,7 @@ body {
     margin: 0;
 }
 
-#contenedor {
+.container {
     display: flex;
     justify-content: center; /* Alinea horizontalmente */
     align-items: center; /* Alinea verticalmente */
@@ -37,21 +37,20 @@ body {
 }
 
 
-#Texto {
+.login_text {
     color: white;
     font-weight: 200;
     margin-top: 10px;
 }
 
-#emailentry,
-#contraseñaentry {
+.form_imput {
     width: 250px;
     height: 30px;
     border-radius: 25px;
     margin-top: 20px;
 }
 
-#Boton {
+.login_btn {
     width: 200px;
     height: 50px;
     border-radius: 25px;
