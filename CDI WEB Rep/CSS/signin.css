@@ -15,7 +15,7 @@ body {
     margin: 0;
 }
 
-#contenedor {
+.signin_form {
     display: flex;
     justify-content: center; /* Alinea horizontalmente */
     align-items: center; /* Alinea verticalmente */
@@ -36,24 +36,20 @@ body {
 
 }
 
-
-#Texto {
+.signin_text {
     color: white;
     font-weight: 200;
     margin-top: 10px;
 }
 
-#emailentry,
-#contraseñaentry,
-#nombreentry,
-#contraseñaentry2 {
+.form_entry {
     width: 250px;
     height: 30px;
     border-radius: 25px;
     margin-top: 20px;
 }
 
-#Boton {
+.signin_btn {
     width: 200px;
     height: 50px;
     border-radius: 25px;
@@ -68,13 +64,9 @@ body {
     cursor: pointer;
 }
 
-#signin {
+#login {
     color: white;
     margin-top: 20px;
 }
 
-#restablecer {
-    margin-top: 40px;
-    color: white;
-}
 
